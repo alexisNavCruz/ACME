@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="49fc6713234c49cc91c7e29b123a1aba" Name="Diagram1">
+        <EntityTypeShape EntityType="ACMEModel.Capitales" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ACMEModel.ProvCap" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ACMEModel.Provincias" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ACMEModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="ACMEModel.FK_ProvCap_Capitales" ManuallyRouted="false" />
+        <AssociationConnector Association="ACMEModel.FK_ProvCap_Provincias" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ACMEModel.Empresas" Width="1.5" PointX="5.25" PointY="0.875" />
+        <AssociationConnector Association="ACMEModel.FK_Empresas_ProvCap" />
+        <EntityTypeShape EntityType="ACMEModel.FechasDescargaBOE" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
